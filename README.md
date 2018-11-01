@@ -49,7 +49,7 @@ Please give it a try!!
    Please fill in the following information and submit it.
    A link will be sent to you to download the configuration guide soon.
  
-   *** put the form here ***
+   [Fill info here](http://nems.cs.nctu.edu.tw/release/)
 
 
   Contact Us
