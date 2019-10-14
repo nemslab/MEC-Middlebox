@@ -1,10 +1,10 @@
-# -*- mode: python -*-
+# -*- mode: python ; coding: utf-8 -*-
 
 block_cipher = None
 
 
-a = Analysis(['dispatcher.py'],
-             pathex=['/home/berniehuang/Documents/proxy_arp_mec/release/v2'],
+a = Analysis(['Dispatcher.py'],
+             pathex=['/home/yushuang/release'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -21,7 +21,7 @@ exe = EXE(pyz,
           a.scripts,
           [],
           exclude_binaries=True,
-          name='dispatcher',
+          name='Dispatcher',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
@@ -33,4 +33,5 @@ coll = COLLECT(exe,
                a.datas,
                strip=False,
                upx=True,
-               name='dispatcher')
+               upx_exclude=[],
+               name='Dispatcher')

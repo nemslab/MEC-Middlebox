@@ -1,4 +1,4 @@
-('/home/berniehuang/Documents/proxy_arp_mec/release/v2/build/dispatcher/PYZ-00.pyz',
+('/home/yushuang/release/build/Dispatcher/PYZ-00.pyz',
  [('encodings.aliases',
    '/usr/lib/python2.7/encodings/aliases.py',
    'PYMODULE'),
